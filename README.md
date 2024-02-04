@@ -37,6 +37,16 @@ Before you can run this project, you need to have the following installed:
    poetry install
    ```
 
+6. **ENV File**
+
+```
+# Once you add your API key below, make sure to not share it with anyone! The API key should remain private.
+OPENAI_API_KEY=xxxxx
+
+# This is the key for the Mark 1.0 API
+APP_KEY="xxxx"
+```
+
 ## Usage
 
 Now that you have installed the project and its dependencies, you can run the FastAPI application. Make sure you are in the project directory.
